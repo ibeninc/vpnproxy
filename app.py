@@ -5,14 +5,7 @@ from resources.genip import GenerateProxy
 
 
 app = Flask(__name__)
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://rjohzhfo:t8KV22z7hT1rBs-z_a7m_x-zm9B_4ItL@hattie.db.elephantsql.com/rjohzhfo'
-# app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-# app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
-# app.config['JWT_BLACKLIST_ENABLED'] = True
-# app.config['JWT_BLACKLIST_TOKEN_CHECKS'] = ['access', 'refresh']
-
-app.secret_key = "petral"
+app.secret_key = "blaaa"
 api = Api(app)
 CORS(app)
 
